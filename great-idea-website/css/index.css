@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* this is the reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	padding: 5%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +65,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* p !important{
+	border: solid;
+} */
+/* html {
+	text-align: center;
+} */
+
+.navigation{
+	display: inline-block;
+	width: 100%;
+	margin: 20px;
+	text-align: center;
+}  
+
+.word1.word2.word3.word4.word5.word6 {
+	display: inline-block;
+	width: 10%;
+	margin: 20px;
+}
+
+.logo{
+	position: absolute;
+	right: 40px;
+	top: 25px;
+}
+
+.big-word {
+	font-size: 100px;
+	width: 50%;
+	right: 1000%;
+	top: 10%;
+	text-align: center;
+} 
+
+.started {
+	border: solid;
+	width: 50%;
+	right: 1000%;
+	top: 10%;
+	text-align: center;
+
+}
+.circle {
+	position: absolute;
+	left: 900px;
+	bottom: 350px;
+}
+.middle-img {
+	text-align: center;
+}
+header {
+	outline: 10px;
+}
+
+/* .featuresAbout{
+	position: inline-block;
+	width: 50%;
+	margin: 20px;
+} */
+
+
+/* .features {
+	position: inline-block;
+	width: 50%;
+	margin: 20px;
+}
+.about {
+	position: inline-block;
+	width: 50%;
+	margin: 20px;
+	right: 500px;
+} */
+.feature {
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+}
+.about {
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+}
+.services {
+	display: inline-block;
+	width: 25%;
+	margin: 20px;
+}
+.product {
+	display: inline-block;
+	width: 25%;
+	margin: 20px;
+}
+.vision {
+	display: inline-block;
+	width: 25%;
+	margin: 20px;
+}
+.contact{
+	text-align: left;
+	width: 400px;
+}
+footer{
+	text-align: center;
+}
