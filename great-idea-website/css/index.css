@@ -75,17 +75,13 @@ h1, h2, h3, h4, h5 {
 
 .navigation{
 	display: inline-block;
-	width: 100%;
+	position: fixed;
+	top: 10px;
+	width: 80%;
+	word-spacing: 100px;
 	margin: 20px;
-	text-align: center;
+	background-color: white;
 }  
-
-.word1.word2.word3.word4.word5.word6 {
-	display: inline-block;
-	width: 10%;
-	margin: 20px;
-}
-
 .logo{
 	position: absolute;
 	right: 40px;
